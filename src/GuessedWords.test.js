@@ -53,7 +53,7 @@ describe("If there are guessed words.", () => {
   ];
 
   beforeEach(() => {
-    wrapper = setup({ guessedWords: [] });
+    wrapper = setup({ guessedWords });
   });
 
   it("Renders without error.", () => {
